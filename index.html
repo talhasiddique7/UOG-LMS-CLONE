@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UoG LMS: Log in to the site</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<script src="https://kit.fontawesome.com/5948215ef6.js" crossorigin="anonymous"></script>
+<body>
+    <style>
+        body{
+            font-family:sans-serif,"Poppins";
+            background-image: url(https://lms.uog.edu.pk/theme/image.php/moove/theme/1674451962/login_bg);
+            position: fixed;
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position:center;
+            
+        }
+        .container{
+           display:block;
+            position: absolute;
+           margin: 50px 600px  0; 
+        
+           
+        }
+        
+        
+        p{  
+            line-height: 1;
+        }
+        
+        .para{ 
+           color:#fff;
+           font-size: 20px;
+           font-family:sans-serif,"Poppins";
+           
+        }
+        .input-field .a{
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            width:100%;
+            height: 40px;
+            outline: none;
+            /* box-shadow: 2px 3px rgb(48, 48, 225); */
+            padding: 0 0 0 45px;
+            
+        
+        }
+        .input-field .b{
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            width:100%;
+            height: 40px;
+            outline:none;
+            padding: 0 0 0 45px;
+        
+        }
+        #ac{
+            color: #fff;
+            background-color: rgb(11, 57, 164);
+            width: 40px;
+            height: 45px;
+            text-align: center;
+            position: absolute;
+            top:293px;
+            font-size: 20px;
+            padding-top: 10px;
+            box-sizing: border-box;
+            border: 2px 0 2px 2px solid rgb(10, 10, 108);
+            border-radius: 1px;
+            
+        }
+        #ps{
+            color: #fff;
+            background-color: rgb(11, 57, 164);
+            width: 40px;
+            height: 42px;
+            text-align: center;
+            position: absolute;
+            top:337px;
+            font-size: 20px;
+            padding-top: 10px;
+            box-sizing: border-box;
+            border: 2px 0 2px 2px solid rgb(10, 10, 108);
+            border-radius: 1px;
+            
+        }
+        .check_box{
+            width: 15px;
+            height: 15px;
+        }
+        .label1{
+            color: #fff;
+        }
+        .input-field .btn{
+            width: 115%;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(11, 57, 164);
+            color: #fff;
+            outline: none;
+            border: 2px solid rgb(45, 45, 152);
+            cursor: pointer;
+        }
+        .btn:hover{
+          box-shadow: 1px 5px 7px 1px rgba(0, 0, 255, 0.595);
+        }
+        .cl{
+            text-align: center;
+            margin-left: 50px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+    </style>
+    <div class="container">
+    
+        <div class="logo">
+    <img src="https://lms.uog.edu.pk/pluginfile.php/1/theme_moove/logo/1674451962/LMS-Logo-312x146-px%20%281%29.png" alt="#">
+   </div>
+        <div class="para">
+            <br>
+    <p>* No app exists for UoG LMS<br>
+       * Username is your roll no<br>
+       * For email issue emailsupport@uog.edu.pk</p></div>
+    <div class="input-field">
+        <input type="text" class="a" name="username" placeholder="Username" required>
+        <i class="fas fa-user-circle" id="ac"></i>
+    </div>
+    <div class="input-field">
+        <input type="password" class="b" name="username" placeholder="Password" required>
+        <i class="fa-solid fa-lock" id="ps"></i>
+    </div>
+    <br>
+    <div class="input">
+        <input type="checkbox" class="check_box" required>
+           <label class="label1">Remember username</label>
+    </div>
+      <div class="input-field">
+        <br>
+        <button class="btn">
+            Log in
+        </button>
+        
+        <label class="cl">Forgotten your password?</label>
+      </div>
+    </div>
+
+</body>
+</html>
